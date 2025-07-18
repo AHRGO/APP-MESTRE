@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 class PinkSquareWidget extends StatelessWidget {
   final double size;
 
+  /// This is a widget that displays a pink square. Used for placeholder purposes.
   const PinkSquareWidget({super.key, this.size = 100.0});
 
   @override
