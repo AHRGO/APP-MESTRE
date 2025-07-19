@@ -2,7 +2,10 @@
 import 'package:flutter/material.dart';
 
 class SquareAtomWidget extends StatelessWidget {
-  const SquareAtomWidget({super.key});
+  final double squareSize;
+  final Color squareColor;
+
+  const SquareAtomWidget({super.key, this.squareSize = 100, this.squareColor = Colors.blue});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +13,7 @@ class SquareAtomWidget extends StatelessWidget {
       height: 100,
       width: 100,
       decoration: BoxDecoration(
-        color: Colors.green,
+        color: squareColor,
         borderRadius: BorderRadius.circular(10),
       ),
     );
