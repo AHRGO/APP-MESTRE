@@ -8,8 +8,10 @@ class Homescreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return InformationalTableComponent(
+      tableTitle: "Aldeias-Portal",
       tableRowColor: Colors.blueGrey,
-      titles: ['Item', 'Tipo', 'Preço por Dose'],
+      tableWidth: 400,      
+      columnTitles: ['Item', 'Tipo', 'Preço por Dose'],
       data: [
         ['Essência de éter', 'Inalação', '300 PO'],
         ['Lágrimas da meia noite', 'Ingestão', '1.500 PO'],
