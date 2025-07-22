@@ -8,6 +8,10 @@ class InformationalTableTitle extends StatelessWidget {
   //TODO: Finalizar estilo 
   @override
   Widget build(BuildContext context) {
-    return Text(title);
+    return Text(title, 
+    style: TextStyle(
+      fontWeight: FontWeight.bold,
+    )
+    );
   }
 }
